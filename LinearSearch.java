@@ -1,22 +1,9 @@
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.*;
 
 public class LinearSearch {
-	
-	public static int lsearch (ArrayList<Integer> numbers, int target) {
-		int index = 0;
-		for (int num : numbers) {
-			if (num == target) {
-				return index;
-			}
-			index++;
-		}
-		return -1;
-	}
-
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		ArrayList<Integer> numbers = new ArrayList<>();
+		List<Integer> numbers = new ArrayList<>();
 		System.out.println("How many number are you going to enter? ");
 		int n = scan.nextInt();
 		System.out.println("Enter the list of numbers: ");
@@ -24,13 +11,15 @@ public class LinearSearch {
 			int num = scan.nextInt();
 			numbers.add(num);
 		}
+
 		System.out.println("Enter the target: ");
 		int target = scan.nextInt();
-		int foundedIndex = lsearch(numbers, target);
-		if (foundedIndex > -1)
-			System.out.println("Element found on index " + foundedIndex);
-		else
-			System.out.println("Element not found!");
+
+		if (numbers.indexOf(target) >= 0) {
+			System.out.println("Successful Search!");
+		} else {
+			System.out.println("Unsuccessful Search!");
+		}
 		scan.close();
 	}
 }

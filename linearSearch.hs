@@ -9,3 +9,6 @@ main = do
 search :: Eq a => [a] -> a -> Bool
 search [] _ = False
 search (h:t) num = h == num || search t num
+
+search :: Eq a => [a] -> a -> [Int]
+search xs y = [ i | (i,x) <- zip [0..] xs, x==y]
