@@ -9,9 +9,17 @@ void linearSearch(const int myList[], int key)
 			cout << "Successful Search" << endl;
 	}	
 }
-void main()
+int main()
 {
-	int myList[6] = {1,2,3,8,9,12};
-	int key = 2;
+    int num;
+    cout << "Enter Number of Elements :"<< endl;
+    cin >> num;
+	int myList[num];
+    for(int i = 0 ; i <  num  ;i++)
+        cin >> myList[i];
+    cout << "Enter Element to Search :"<< endl;
+	int key;
+    cin >> key;
 	linearSearch(myList, key);
+	return 0;
 }
