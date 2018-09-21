@@ -1,14 +1,14 @@
+// This is to search the element Manually in the list
+import java.util.*;
 public class LinearSearch {
 
     public static void main(String[] args) {
         int myList[] = {1,2,3,8,9,12};
         int key = 2;
-
         String output = linearSearch(myList, key) ? "Successful Search" : "Unsuccessful Search";
         System.out.println(output);
 
     }
-
     private static boolean linearSearch(int[] list, int key) {
 
         for(int i = 0; i < list.length; i++) {
@@ -19,19 +19,7 @@ public class LinearSearch {
         }
         return false;
     }
-}
- 
-    public static int linearSearch(int[] arr, int key){
-         
-        int size = arr.length;
-        for(int i=0;i<size;i++){
-            if(arr[i] == key){
-                return i;
-            }
-        }
-        return -1;
-    }
-     
+}    
     public static void main(String a[]){
          
         int[] arr1= {23,45,21,55,234,1,34,90};
@@ -39,9 +27,9 @@ public class LinearSearch {
         System.out.println("Element "+searchElem+" found at index: "+linearSearch(arr1, searchElem));
         
     }
-}
+} 
+// This is to search the element through user input in the list
 import java.util.*;
-
 public class LinearSearch {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
