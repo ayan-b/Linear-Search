@@ -5,4 +5,5 @@ Add a Linear Search Code in any language of your choice! Take a look at the [CON
 ## Contributors 
 1. [Ayan Banerjee](https://github.com/ayan-b)
 2. [Craxy](https://github.com/CraxyTM)
-3. [Bhrigu Kansra](https://github.com/kinetickansra) .
+3. [Bhrigu Kansra](https://github.com/kinetickansra) 
+4. [Rahul Suresh](https://github.com/icy-meteor)
