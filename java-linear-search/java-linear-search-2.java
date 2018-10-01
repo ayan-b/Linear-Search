@@ -19,7 +19,7 @@ public class LinearSearch {
 
         //Create the scanner instance and the array of numbers
         Scanner scanner = new Scanner(System.in);
-        int[] numbers = new int[scanner.nextInt()];
+        int[] numbers = new int[scanner.nextInt()];      //Number of elements in the search
 
         System.out.println("Enter the numbers and press enter after each line: ");
 
@@ -30,8 +30,8 @@ public class LinearSearch {
 
         System.out.println("Enter the target: ");
 
-        //Use the linear search algorithm to find the index of the target in the array
-        int indexOfTarget = linearSearch(numbers, scanner.nextInt());
+        //Use the linear search algorithm to find the index of the target in the array simultaneously taking the target input
+        int indexOfTarget = linearSearch(numbers, scanner.nextInt());         
 
         //Ouput the result
         if (indexOfTarget >= 0) {
@@ -54,9 +54,9 @@ public class LinearSearch {
     private static int linearSearch(int[] numbers, int target) {
         for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] == target) {
-                return i;
+                return i;                               //Returns the index of element if fount
             }
         }
-        return -1;
+        return -1;                                      //Else returns -1
     }
 }
