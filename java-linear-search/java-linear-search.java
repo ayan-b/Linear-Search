@@ -7,10 +7,8 @@ public class LinearSearch {
         int key = 2;
         String output = linearSearch(myList, key) ? "Successful Search" : "Unsuccessful Search";
         System.out.println(output);
-
     }
-    private static boolean linearSearch(int[] list, int key) {
-
+    private static boolean linearSearch(int[] list, int key) {         //function that implements linear search
         for(int i = 0; i < list.length; i++) {
             if(list[i] == key){
                 return true;
@@ -21,7 +19,6 @@ public class LinearSearch {
     }
 }    
     public static void main(String a[]){
-         
         int[] arr1= {23,45,21,55,234,1,34,90};
         int searchElem = 34;
         System.out.println("Element "+searchElem+" found at index: "+linearSearch(arr1, searchElem));
@@ -35,7 +32,7 @@ public class LinearSearch {
 		Scanner scan = new Scanner(System.in);
 		List<Integer> numbers = new ArrayList<>();
 		System.out.println("How many number are you going to enter? ");
-		int n = scan.nextInt();
+		int n = scan.nextInt();							//Number of elements in search
 		System.out.println("Enter the list of numbers: ");
 		for (int i = 0; i < n; i++) {
 			int num = scan.nextInt();
@@ -43,7 +40,7 @@ public class LinearSearch {
 		}
 
 		System.out.println("Enter the target: ");
-		int target = scan.nextInt();
+		int target = scan.nextInt();						//The element to be searched for	
 
 		if (numbers.indexOf(target) >= 0) {
 			System.out.println("Successful Search!");
