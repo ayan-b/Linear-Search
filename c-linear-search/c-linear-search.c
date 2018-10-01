@@ -3,7 +3,7 @@ int main()
 {
     int n,i,x,flag=0;                       
     int a[100100]; 
-    scanf("%d",&n);            //how many numbers in which you want to search
+    scanf("%d",&n);            //number of elements in the search array
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);     //Taking input from user 
