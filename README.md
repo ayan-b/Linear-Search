@@ -10,7 +10,7 @@ Linear search is a very simple search algorithm. In this type of search, a seque
 ## Contributors 
 |Sl. No.| Name | Institution | Country | Language Added |
 | ----- | ---- | ----------- | ------- | -------------- |
-|1| [Ayan Banerjee](https://github.com/ayan-b) | NIT Durgapur | India | Python3 |
+|1| [Ayan Banerjee](https://github.com/ayan-b) | | | |
 |2| [Craxy](https://github.com/CraxyTM) | | | |
 |3| [Bhrigu Kansra](https://github.com/kinetickansra) | | | |
 |4| [Rahul Suresh](https://github.com/icy-meteor) | | | |
