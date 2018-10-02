@@ -1,2 +1,2 @@
 # python-linear-search
-*Example Linear Search in Python*
+*Illustration of Linear Search in Python*
