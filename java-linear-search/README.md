@@ -9,3 +9,6 @@
 <li>Better code structure</li>
 <li>Better testing</li>
 </ol>
+
+# java-linear-search-3
+<i>Easily understandable implementation</i>
