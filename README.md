@@ -18,3 +18,4 @@ Linear search is a very simple search algorithm. In this type of search, a seque
 8. [Sahil Nishal](https://github.com/snishal)
 9. [Saksham Garg](https://github.com/sak6e)
 10. [D. Ben Knoble](https://github.com/benknoble)
+11. [Priyanka Rajput](https://github.com/Priyankarajput1)
