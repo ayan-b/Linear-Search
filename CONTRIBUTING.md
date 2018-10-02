@@ -7,4 +7,4 @@ You can contribute in 2 ways -
 
 Don't forget to write your name in the following structure in README under contributers sections: `[your_name](https://github.com/your_github_handle]`.
 
-**NOTE: Please add your own code, do not edit others.**
+**NOTE: Please add your own code, do not edit others. If you think a change is necessary create an issue first.**
