@@ -22,4 +22,4 @@ Linear search is a very simple search algorithm. In this type of search, a seque
 |10| [D. Ben Knoble](https://github.com/benknoble) | | |
 |11| [Priyanka Rajput](https://github.com/Priyankarajput1) | | |
 |12| [Amartya Kalapahar](https://github.com/amartya-k) | | |
-|13| [Owais Ali](https://github.com/owaisalics) | | |
+|13| [Owais Ali](https://github.com/owaisalics) |Lahore University of Management Sciences | Pakistan |
