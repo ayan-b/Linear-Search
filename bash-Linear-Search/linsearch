@@ -1,0 +1,42 @@
+#! /usr/bin/env bash
+
+set -euo pipefail
+
+log() {
+  printf '%s\n' "$@"
+}
+
+die() {
+  log "$@"
+  exit 1
+}
+
+search() {
+  local key="$1"
+  shift
+  local array=("$@")
+  for index in "${!array[@]}" ; do
+    if [[ "${array[index]}" = "$key" ]]; then
+      echo "$index"
+      return
+    fi
+  done
+  echo -1
+}
+
+main() {
+  if [[ -z "${1:-}" ]]; then
+    die 'No key to search for'
+  fi
+  local key="$1"
+  shift
+  local array=("$@")
+  local pos="$( search "$key" "${array[@]}")"
+  if ((pos < 0)); then
+    die 'Key not found'
+  else
+    printf 'Key found at position %s\n' "$pos"
+  fi
+}
+
+main "$@"
