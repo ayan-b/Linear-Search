@@ -1,17 +1,17 @@
 #include<stdio.h>
-void main()
+
+int main()
 {
-	
 	int arr[100], i, num, n, c=0, pos;
 	printf("Enter the array size : ");
-	scanf("%d",&n);
+	scanf("%d", &n);
 	printf("Enter the Array Elements : ");
 	for(i=0; i<n; i++)
 	{
 		scanf("%d",&arr[i]);
 	}
 	printf("Enter the number to be searched: ");
-	scanf("%d",&num);
+	scanf("%d", &num);
 	for(i=0; i<n; i++)
 	{
 		if(arr[i]==num)
@@ -27,6 +27,8 @@ void main()
 	}
 	else
 	{
-		printf("%d found at the position %d",num, pos);
+		printf("%d found at the position %d", num, pos);
 	}
+	
+	return 0;
 }

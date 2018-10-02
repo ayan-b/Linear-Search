@@ -4,7 +4,7 @@ package linearSearch;
 
 fun linearSearch (searchList: Array<Int>, key: Int) : Boolean {
 
-    for(x in searchList.indices){
+    for(x in searchList){
         if(x == key){
             return true
         }
