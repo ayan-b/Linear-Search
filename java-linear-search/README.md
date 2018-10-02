@@ -12,3 +12,7 @@
 
 # java-linear-search-3
 <i>Easily understandable implementation</i>
+
+# java-linear-search-4
+<i>Implemented Linear Search in which first size of input will be provided then the numbers and then the number to be searched.</i>
+
