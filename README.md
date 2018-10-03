@@ -27,3 +27,4 @@ Linear search is a very simple search algorithm. In this type of search, a seque
 |14| [Vinayak](https://github.com/vinayak42) | Indraprastha Institute of Information Technology, Delhi | India | Python-3 |
 |15| [Daniel Del Rio](https://github.com/daniddelrio) | Ateneo de Manila University | Philippines | `issue#2` |
 |16| [Andrew Joshua Loria](https://github.com/ajloria) | University of Washington | United States | Java-7 |
+|16| [Jirayu Saengwannakool](https://github.com/bankzxcv) || Thailand | Javascript,Golang |
