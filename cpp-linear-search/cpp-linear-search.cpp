@@ -12,14 +12,20 @@ void linearSearch(const int myList[], int key)
 int main()
 {
     int num;
-    cout << "Enter Number of Elements :"<< endl;
-    cin >> num;
-	int myList[num];
-    for(int i = 0 ; i <  num  ;i++)
-        cin >> myList[i];
-    cout << "Enter Element to Search :"<< endl;
-	int key;
-    cin >> key;
-	linearSearch(myList, key);
+    int t ;
+    cout<<"Enter the number of test cases : "<<endl ;
+    cin >>t ;
+    while(t--)
+    {
+	    cout << "Enter Number of Elements :"<< endl;
+	    cin >> num;
+		int myList[num];
+	    for(int i = 0 ; i <  num  ;i++)
+	        cin >> myList[i];
+	    cout << "Enter Element to Search :"<< endl;
+		int key;
+	    cin >> key;
+		linearSearch(myList, key);
+	}
 	return 0;
 }
