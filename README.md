@@ -30,3 +30,4 @@ Linear search is a very simple search algorithm. In this type of search, a seque
 |17| [Jirayu Saengwannakool](https://github.com/bankzxcv) || Thailand | Javascript,Golang |
 |18| [Ryan Michalec](https://github.com/a3qz) || United States | F# |
 |19| [Pulkit Jatav](https://github.com/paradoxpj) | | India | Python |
+|20| [Vidushi Jain](https://github.com/VidushiJain30) |JSS Academy of Technical Education, Noida| India | JAVA | 
