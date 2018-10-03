@@ -12,3 +12,6 @@
 
 # java-linear-search-3
 <i>Easily understandable implementation</i>
+
+#java-linear-search-8
+<p>easy to understand as well as execute just give the size ,the list to be searched in and the number to be searched</p>
