@@ -3,6 +3,8 @@ Add a Linear Search Code in any language of your choice! Take a look at the [CON
 
 ## About Linear Search
 Linear search is a very simple search algorithm. In this type of search, a sequential search is made over all items one by one. Every item is checked and if a match is found then that particular item is returned, otherwise the search continues till the end of the data collection.
+## more about it
+- linear search or sequential search is a method for finding a target value within a list. It sequentially checks each element of the list for the target value until a match is found or until all the elements have been searched.
 
 ![Animation](https://www.tutorialspoint.com/data_structures_algorithms/images/linear_search.gif)
 
@@ -30,3 +32,4 @@ Linear search is a very simple search algorithm. In this type of search, a seque
 |17| [Jirayu Saengwannakool](https://github.com/bankzxcv) || Thailand | Javascript,Golang |
 |18| [Ryan Michalec](https://github.com/a3qz) || United States | F# |
 |19| [Pulkit Jatav](https://github.com/paradoxpj) | | India | Python |
+
