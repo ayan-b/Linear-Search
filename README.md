@@ -29,4 +29,4 @@ Linear search is a very simple search algorithm. In this type of search, a seque
 |16| [Andrew Joshua Loria](https://github.com/ajloria) | University of Washington | United States | Java-7 |
 |17| [Jirayu Saengwannakool](https://github.com/bankzxcv) || Thailand | Javascript,Golang |
 |18| [Ryan Michalec](https://github.com/a3qz) || United States | F# |
-|19| [Sarthak Trivedi](http://github.com/sarthak-trivedi)| DA-IICT Dhirubhai ambani institute of information and communication technology | India | Java-8
+|19| [Sarthak Trivedi](http://github.com/sarthak-trivedi)| DA-IICT Dhirubhai ambani institute of information and communication technology | India | Java-8 |

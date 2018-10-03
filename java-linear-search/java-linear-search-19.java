@@ -11,7 +11,7 @@ class LinearSearch{
         System.out.print("Answer : ");
         try{
             int[] arr = new int[sc.nextInt()];
-            System.out.println("Enter elemts one by one");
+            System.out.println("Enter elements one by one");
             for(int i = 0 ; i < arr.length; i++){
                 System.out.print("Enter arr["+i+"] : ");
                 arr[i] = sc.nextInt();
