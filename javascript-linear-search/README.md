@@ -10,3 +10,9 @@ const array = [0,4,2,6,11,8,3,9,5];
 const searchEl = 11;
 // output: Element 11 found at position 3
 ```
+
+Another implementation using prototype
+```javascript
+const myArray = [1, 2, 3, 4, 5];
+myArray.linearSearch(3);
+```
