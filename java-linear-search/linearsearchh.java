@@ -7,18 +7,18 @@ public class LinearSearch
    public static void main(String args[])
    {
       Scanner in=new Scanner(System.in);
-      System.out.println("Enter the no. of input integers:");
+      System.out.println("Enter the no. of integers:");
       int n=in.nextInt();
        int arr[] = new int[n];
       
        
-       System.out.println("Enter Array Elements : ");
+       System.out.println("Enter Elements : ");
 	    for(int i=0; i<n; i++)
        {
            arr[i] = in.nextInt();
        }
        
-	    System.out.print("Enter the Number to be Searched...");
+	    System.out.print("Enter the Number to be Searched-");
        int num = in.nextInt();
 	     int c=0;
        int pos=-1;
@@ -35,7 +35,7 @@ public class LinearSearch
        }
        if(c == 0)
        {
-           System.out.print("Number Not Found..!!");
+           System.out.print("Number Not Found");
        }
        else
        {
