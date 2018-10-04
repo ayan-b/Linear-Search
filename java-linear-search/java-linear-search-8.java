@@ -1,8 +1,6 @@
-package com.aesophor.medievania.entity;
-
 import java.util.Scanner;
 
-public class JavaLinearSearch4 {
+public class JavaLinearSearch8 {
 
     private static final Scanner SC = new Scanner(System.in);
 
