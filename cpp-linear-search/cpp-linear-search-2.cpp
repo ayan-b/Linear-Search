@@ -27,7 +27,7 @@ int main()
         {
             
             cout<<"Element "<<key<<" found at "<<(it-vec.begin())+1<<" position!";
-            return 0;
+            return 1;
         }
     }
     
