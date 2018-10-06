@@ -1,3 +1,8 @@
+/**
+ * @author Ana Carolina Ferreira (github.com/anacdf)
+ * @version October 5, 2018
+ */
+
 import java.util.*;
 
 import static jdk.nashorn.internal.objects.NativeMath.random;
