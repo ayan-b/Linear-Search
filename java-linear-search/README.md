@@ -12,3 +12,12 @@
 
 # java-linear-search-3
 <i>Easily understandable implementation</i>
+
+# LimearScerchExample
+<ol>
+<li>Easy code</li>
+<li>You will clearly understand</li>
+</ol>
+
+
+
