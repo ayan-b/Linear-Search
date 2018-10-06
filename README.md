@@ -29,5 +29,6 @@ Linear search is a very simple search algorithm. In this type of search, a seque
 |16| [Andrew Joshua Loria](https://github.com/ajloria) | University of Washington | United States | Java-7 |
 |17| [Jirayu Saengwannakool](https://github.com/bankzxcv) || Thailand | Javascript,Golang |
 |18| [Ryan Michalec](https://github.com/a3qz) || United States | F# |
-|19| [Pulkit Jatav](https://github.com/paradoxpj) | | India | Python |
-|20| [Marco Wang](https://github.com/aesophor) | University of Taipei | Taiwan | Java, C, Bash, Python-3 |
+| 19 | [Pulkit Jatav](https://github.com/paradoxpj)        |                      | India   | Python                  |
+| 20 | [Marco Wang](https://github.com/aesophor)           | University of Taipei | Taiwan  | Java, C, Bash, Python-3 |
+| 21 | [Jacob Fjerbaek Olsen](https://github.com/fjerbaek) | Aarhus University    | Denmark | SML (Standard ML)       |
