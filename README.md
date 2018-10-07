@@ -34,3 +34,4 @@ Linear search is a very simple search algorithm. In this type of search, a seque
 |21| [Grzegorz Wcisło](https://github.com/grzegorz-wcislo) | | Poland | |
 |22| [Ivan Dyominov](https://github.com/dyominov) |  | Ukraine | Scala |
 |23| [Jacob Fjerbaek Olsen](https://github.com/fjerbaek) | Aarhus University | Denmark | SML (Standard ML) |
+|24| [Ana Carolina Ferreira](https://github.com/anacdf) | PUCRS | Brazil | Java |
