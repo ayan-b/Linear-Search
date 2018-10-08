@@ -1,25 +1,24 @@
 #include <iostream>
-using namespace std;
 
 void linearSearch(const int myList[], int key)
 {
 	for (int i = 0; i < sizeof(myList); i++)
 	{
 		if (key == myList[i])
-			cout << "Successful Search" << endl;
+			std::cout << "Element Found at index "<< i << std::endl;
 	}	
 }
 int main()
 {
-    int num;
-    cout << "Enter Number of Elements :"<< endl;
-    cin >> num;
+	int num;
+	std::cout << "Enter Number of Elements :" << std::endl;
+	std::cin >> num;
 	int myList[num];
-    for(int i = 0 ; i <  num  ;i++)
-        cin >> myList[i];
-    cout << "Enter Element to Search :"<< endl;
+	for (int i = 0; i < num; i++)
+		std::cin >> myList[i];
+	std::cout << "Enter Element to Search :" << std::endl;
 	int key;
-    cin >> key;
+	std::cin >> key;
 	linearSearch(myList, key);
 	return 0;
 }
