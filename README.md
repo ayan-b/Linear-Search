@@ -8,6 +8,7 @@ Linear search is a very simple search algorithm. In this type of search, a seque
 
 
 ## Contributors 
+
 |Sl. No.| Name | Institution | Country | Language Added |
 | ----- | ---- | ----------- | ------- | -------------- |
 |1| [Ayan Banerjee](https://github.com/ayan-b) | | | |
@@ -22,7 +23,7 @@ Linear search is a very simple search algorithm. In this type of search, a seque
 |10| [D. Ben Knoble](https://github.com/benknoble) | | | |
 |11| [Priyanka Rajput](https://github.com/Priyankarajput1) | | | |
 |12| [Amartya Kalapahar](https://github.com/amartya-k) | N.M.A.M. Institute Of Technology, Nitte | India | Assembly |
-|13| [Owais Ali](https://github.com/owaisalics) |Lahore University of Management Sciences | Pakistan | C# | 
+|13| [Owais Ali](https://github.com/ows-ali) |Lahore University of Management Sciences | Pakistan | C# | 
 |14| [Vinayak](https://github.com/vinayak42) | Indraprastha Institute of Information Technology, Delhi | India | Python-3 |
 |15| [Daniel Del Rio](https://github.com/daniddelrio) | Ateneo de Manila University | Philippines | `issue#2` |
 |16| [Andrew Joshua Loria](https://github.com/ajloria) | University of Washington | United States | Java-7 |
