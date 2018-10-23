@@ -21,4 +21,5 @@ int main()
 	for(i=0;i<n;i++) cin>>a[i];
 	cin>>s;
 	lsearch(a,s);
+	return 0;
 }
