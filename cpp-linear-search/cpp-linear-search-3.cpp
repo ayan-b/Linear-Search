@@ -1,24 +1,25 @@
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
-void lsearch(int a[],int s)
+void lsearch(int a[],int s,int n)
 {
-	int i,flag=0;
-	for(i=0;i<sizeof(a);i++)
-	{
+	for(int i=0;i<n;i++)
 		if(a[i]==s)
 		{
 			cout<<"Found";
-			flag=1;
-			break;
+			return;
 		}
-	}
-	if(flag!=1) cout<<"Not found";
+	cout<<"Not Found";
 }
+
 int main()
 {
-	int i,a[10],n,s;
+	int i,n,s;
+	cout<<"Size of search space: ";
 	cin>>n;
-	for(i=0;i<n;i++) cin>>a[i];
+	int a[n];
+	for(i=0;i<n;i++) 
+		cin>>a[i];
+	cout<<"Search element: ";
 	cin>>s;
-	lsearch(a,s);
+	lsearch(a,s,n);
 }
