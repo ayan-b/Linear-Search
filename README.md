@@ -39,4 +39,5 @@ Linear search is a very simple search algorithm. In this type of search, a seque
 |26| [Piyush Pant](https://github.com/PiyushP17) | DIT University, Dehradun | India | Python 3 |
 |27| [Søren Eriksen](https://github.com/soer7022) | Aarhus University | Denmark | Java |
 |28| [Akshay Khanna](https://github.com/akshaykhanna) | Thoughtworks | India | Nim |
+|29| [Aditya Jyoti Paul](https://github.com/phreakyphoenix) | | India | Cpp |
 
