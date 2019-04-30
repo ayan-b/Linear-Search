@@ -12,4 +12,4 @@ Don't forget to write your name in the following structure in README under contr
 Note that, the `Your Institution Name>` field is optional and you may leave it blank if you wish.
 
 
-**NOTE: Please add your own code, do not edit others. If you think a change is necessary create an issue first.**
+**NOTE: You can also edit others code if it can be improved.**
