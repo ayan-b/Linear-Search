@@ -1,0 +1,55 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class JavaLinearSearch9 {
+
+  public JavaLinearSearch9(){
+    BasicArray content = new BasicArray();
+    while(true) {
+      System.out.print("What integer do you want to find (1 to 100)? ");
+      int number = 0;
+      while (true) {
+        BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
+        try {
+          while (number < 1 || number > 100) {
+            String v = input.readLine();
+            number = Integer.parseInt(v);
+            if (number < 1 || number > 100) {
+              System.out.print("Must be between 1 and 100: ");
+            }
+          }
+          break;
+        } catch (Exception e) {
+          System.out.print("Please enter a number: ");
+        }
+      }
+      if (content.contains(number))
+        System.out.println("Number found!");
+      else
+        System.out.println("Number not found!");
+    }
+  }
+
+  public static void main(String[] args) {
+    new JavaLinearSearch9();
+  }
+
+  public class BasicArray{
+    int[] content;
+
+    public BasicArray(){
+      content = new int[10];
+      for(int i = 0; i < 10; i++){
+        content[i] = (int) (Math.random() * ((100 - 1) + 1)) + 1;
+      }
+    }
+
+    public boolean contains(int var){
+      for (int i = 0; i < 10; i++){
+        if (content[i] == var) return true;
+      }
+      return false;
+    }
+  }
+
+}
