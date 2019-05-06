@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-public class JavaLinearSearch3 {
+public class LinearSearch {
     public Integer linearSearch(List<Integer> numbers, Integer key ) {
         Integer result = null;
         Optional<Integer> number = numbers.stream().filter(n -> n.equals(key)).findFirst();
