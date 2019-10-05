@@ -40,4 +40,4 @@ Linear search is a very simple search algorithm. In this type of search, a seque
 |27| [Søren Eriksen](https://github.com/soer7022) | Aarhus University | Denmark | Java |
 |28| [Akshay Khanna](https://github.com/akshaykhanna) | Thoughtworks | India | Nim |
 |29| [Aditya Jyoti Paul](https://github.com/phreakyphoenix) | SRM IST | India | Cpp |
-|30| [Prateek Jena] (https://github.com/prateikjena) | Bhadrak Autonomous College | India | Perl |
+|30| [Prateek Jena](https://github.com/prateikjena) | Bhadrak Autonomous College | India | Perl |
