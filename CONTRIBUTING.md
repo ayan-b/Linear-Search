@@ -7,9 +7,10 @@ You can contribute in 2 ways -
 
 2. You can also contribute by structuring the present code in the aforementioned way.
 
-Don't forget to write your name in the following structure in README under contributors sections: `|<Sl No.>|[your_name](https://github.com/your_github_handle]| <Your Institution Name> | <Your Country Name> | <Language Added> |`.
+Don't forget to write your name in the following structure in README under contributors sections: 
+`|<Sl No.>|[your_name](https://github.com/your_github_handle]| <Your Institution Name> | <Your Country Name> | <Language Added> |`.
 
-Note that, the `Your Institution Name>` field is optional and you may leave it blank if you wish.
+Note that, the `<Your Institution Name>` field is optional and you may leave it blank if you wish.
 
 
 **NOTE: You can also edit others code if it can be improved.**
