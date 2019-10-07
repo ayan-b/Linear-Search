@@ -1,6 +1,4 @@
 #include<stdio.h> 
-
-/* Recursive function to search x in arr[l..r] */
 int ls(int arr[], int l, int r, int x) 
 { 
 	if (r < l) 
