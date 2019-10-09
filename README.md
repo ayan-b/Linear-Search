@@ -45,3 +45,4 @@ Linear search is a very simple search algorithm. In this type of search, a seque
 |32| [Prateek Jena](https://github.com/prateikjena) | Bhadrak Autonomous College | India | Perl |
 |33| [Lalit Umbarkar](https://github.com/MrL1605) | | India | ELM |
 |34| [Joseph Egan](https://github.com/eganjs) | | | |
+|35| [Ciaran Evans](https://github.com/ciaranevans) | | UK | Lua |
