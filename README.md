@@ -47,3 +47,4 @@ Linear search is a very simple search algorithm. In this type of search, a seque
 |34| [Joseph Egan](https://github.com/eganjs) | | | |
 |35| [Mohit Mohan](https://github.com/mohitmo)| IITK | India | |
 |36| [Aman Kumar](https://github.com/aman-ku)|IIIT,Vadodara|India|C|
+|37| [Ryan Smolik](https://github.com/ryansmolik03) | | |Java|
