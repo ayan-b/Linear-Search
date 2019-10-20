@@ -18,7 +18,7 @@ namespace forgetCode
                 a[i] = Int32.Parse(s1);
             }
             
-            Console.WriteLine("Enter Search element\n");
+            Console.WriteLine("Enter Search element \n");
             string s3 = Console.ReadLine();
             int x2 = Int32.Parse(s3);
             for (int i = 0; i < x; i++)
@@ -26,7 +26,7 @@ namespace forgetCode
                 if (a[i] == x2)
                 {
                    
-                    Console.WriteLine("Search successful");
+                    Console.WriteLine("Search successful \n");
                     Console.WriteLine("Element {0} found at location {1}\n", x2, i + 1);
                     return;
                 }
