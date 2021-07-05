@@ -19,9 +19,9 @@ SET found=0
 REM // For Loop List (Linear Search)
 FOR %%s IN (%arg1%) DO (
 	SET /a count += 1
-	IF %%s==%arg2% (
+	IF %%s==%arg2% (                                   //if element is found
 		SET found=1
-		@ECHO "Found for : %%s, Index : !count!"
+		@ECHO "Found for : %%s, Index : !count!"		//prints the index of element
 	)
 )
 
