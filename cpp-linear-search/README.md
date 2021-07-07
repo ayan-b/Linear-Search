@@ -1,2 +1,2 @@
 # cpp-linear-search
-*Example Linear Search in Cpp*
+*Illustration for Linear Search in Cpp*
