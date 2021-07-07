@@ -11,7 +11,7 @@ int main()
 {
     int a,n,key;
     vector<int> vec;
-    vector<int>::iterator it;
+    vector<int>::iterator it; //to help traverse the vector for checking of each element
     cout<<"Enter number of elements : ";
     cin>>n;
     cout<<"Enter element to search : ";
